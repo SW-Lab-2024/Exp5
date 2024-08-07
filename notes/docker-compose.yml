@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  myapp:
+    image: notes:latest
+    command: >
+      sh -c "
+      python manage.py makemigrations --noinput &&
+      python manage.py migrate --noinput &&
+      gunicorn notes.wsgi:application --env IS_GUNICORN_WORKER=True --bind=0.0.0.0:8000 --workers=5 --max-requests=1000 --max-requests-jitter=200"
