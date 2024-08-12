@@ -1,8 +1,19 @@
-حال کاربر user1 را میسازیم
+### ارسال درخواست به وب‌سرور
+
+نخست کاربرuser1 را میسازیم
+![image](https://github.com/user-attachments/assets/7570acb7-960c-4f48-a12e-aba9567be4f2)
+
 
 در اینجا ساخت یادداشت اول با تیتر title 1 و body1 و یادداشت دوم با تیتر title2 و body2 را مشاهده میکنیم:
 
+![image](https://github.com/user-attachments/assets/e9facd47-d205-49b0-b1f3-dd84f84bfeca)
+
+![image](https://github.com/user-attachments/assets/d1449dc0-0f6f-4388-ab17-38105dfdf175)
+
+
 در اینجا هم دریافت تمام یادداشت های یوزر ۱ را مشاهده میکنیم.
+![image](https://github.com/user-attachments/assets/6a5686ab-138d-46bf-b5b4-01bb85802ae9)
+
 
 
 اکنون به پرسش ها پاسخ میدهیم:
