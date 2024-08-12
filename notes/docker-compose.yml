@@ -1,6 +1,13 @@
 version: '3'
 
 services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
   myapp:
     image: notes:latest
     command: >
@@ -10,3 +17,5 @@ services:
       gunicorn notes.wsgi:application --env IS_GUNICORN_WORKER=True --bind=0.0.0.0:8000 --workers=5 --max-requests=1000 --max-requests-jitter=200"
     ports:
       - "8000:8000"
+    depends_on:
+      - db
