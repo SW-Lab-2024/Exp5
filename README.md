@@ -14,6 +14,7 @@ docker compose exec myapp bash
 ### ارسال درخواست به وب‌سرور
 
 نخست کاربرuser1 را میسازیم
+
 ![image](https://github.com/user-attachments/assets/7570acb7-960c-4f48-a12e-aba9567be4f2)
 
 
@@ -25,6 +26,7 @@ docker compose exec myapp bash
 
 
 در اینجا هم دریافت تمام یادداشت های یوزر ۱ را مشاهده میکنیم.
+
 ![image](https://github.com/user-attachments/assets/6a5686ab-138d-46bf-b5b4-01bb85802ae9)
 
 
